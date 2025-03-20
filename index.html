@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Navbar Example</title>
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .navbar-custom {
+      background-color: #ffffff; /* white background */
+    }
+
+    .navbar-custom .nav-link {
+      color: #000000; /* black text */
+      font-weight: 500;
+      margin-right: 15px;
+    }
+
+    .navbar-custom .nav-link:hover {
+      color: #007bff; /* blue hover */
+    }
+
+    .navbar-brand {
+      font-weight: 700;
+    }
+  </style>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-custom shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="#">Parag Shirsat</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#home-section" class="nav-link"><span>Home</span></a></li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Parag_Resume.pdf">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#certifications">Certifications</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Home Section -->
+<section id="home-section" class="py-5 bg-light text-center">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        <h1 class="display-4 fw-bold">Hi, I'm Parag Shirsat</h1>
+        <p class="lead">A passionate Web Developer & Programmer with expertise in building modern, responsive, and interactive websites and applications.</p>
+        <a href="#projects" class="btn btn-primary btn-lg mt-3">View My Work</a>
+      </div>
+      <div class="col-md-6">
+        <img src="Parag_Photo.jpg" alt="Parag Shirsat" class="img-fluid rounded-3 w-75">
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- About Section -->
+<section id="about" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">About Me</h2>
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        <img src="Cross-platform software-rafiki.svg" alt="About Parag" class="img-fluid rounded-3">
+      </div>
+      <div class="col-md-6">
+        <p class="fs-5">
+          Hello! I'm Parag Shirsat, The highly motivated and ambitious B.E. Computer Engineering graduate with a solid foundation in computer science principles, programming languages, and software development. Proficient in C++, Java, Python, Android, PHP and familiar with Web development technologies. Strong analytical and problem-solving skills, with hands-on experience in developing websites through academic projects and internships. Excellent Time management and teamwork abilities, with a keen interest in emerging technologies and continuous learning. Ready to contribute to innovative projects and collaborate with cross-functional teams to deliver effective software solutions.
+        </p>
+        <a href="#contact-section" class="btn btn-outline-primary mt-3">Let's Connect</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Skills Section -->
+<!-- Skills Section -->
+<section id="skills" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Skills</h2>
+
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      
+      <!-- Skill 1: C++ -->
+      <div class="col">
+        <div class="card shadow-sm text-center">
+          <div class="card-body">
+            <i class="fab fa-cuttlefish fa-3x mb-3"></i> <!-- C++ Icon -->
+            <h5 class="card-title">C++</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 2: Java -->
+      <div class="col">
+        <div class="card shadow-sm text-center">
+          <div class="card-body">
+            <i class="fab fa-java fa-3x mb-3"></i> <!-- Java Icon -->
+            <h5 class="card-title">Java</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 3: Python -->
+      <div class="col">
+        <div class="card shadow-sm text-center">
+          <div class="card-body">
+            <i class="fab fa-python fa-3x mb-3"></i> <!-- Python Icon -->
+            <h5 class="card-title">Python</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 4: PHP -->
+      <div class="col">
+        <div class="card shadow-sm text-center">
+          <div class="card-body">
+            <i class="fab fa-php fa-3x mb-3"></i> <!-- PHP Icon -->
+            <h5 class="card-title">PHP</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 5: HTML -->
+      <div class="col">
+        <div class="card shadow-sm text-center">
+          <div class="card-body">
+            <i class="fab fa-html5 fa-3x mb-3"></i> <!-- HTML Icon -->
+            <h5 class="card-title">HTML</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 6: CSS -->
+      <div class="col">
+        <div class="card shadow-sm text-center">
+          <div class="card-body">
+            <i class="fab fa-css3-alt fa-3x mb-3"></i> <!-- CSS Icon -->
+            <h5 class="card-title">CSS</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 7: JavaScript -->
+      <div class="col">
+        <div class="card shadow-sm text-center">
+          <div class="card-body">
+            <i class="fab fa-js-square fa-3x mb-3"></i> <!-- JavaScript Icon -->
+            <h5 class="card-title">JavaScript</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 8: MySQL -->
+      <div class="col">
+        <div class="card shadow-sm text-center">
+          <div class="card-body">
+            <i class="fas fa-database fa-3x mb-3"></i> <!-- MySQL (Database Icon) -->
+            <h5 class="card-title">MySQL</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 9: Firebase -->
+      <div class="col">
+        <div class="card shadow-sm text-center">
+          <div class="card-body">
+            <i class="fas fa-fire fa-3x mb-3"></i> <!-- Firebase (Fire Icon) -->
+            <h5 class="card-title">Firebase</h5>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Skill 11: Bootstrap -->
+      <div class="col">
+        <div class="card shadow-sm text-center">
+          <div class="card-body">
+            <i class="fab fa-bootstrap fa-3x mb-3"></i> <!-- Bootstrap Icon -->
+            <h5 class="card-title">Bootstrap</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 12: WordPress -->
+      <div class="col">
+        <div class="card shadow-sm text-center">
+          <div class="card-body">
+            <i class="fab fa-wordpress fa-3x mb-3"></i> <!-- WordPress Icon -->
+            <h5 class="card-title">WordPress</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 13: Android -->
+      <div class="col">
+        <div class="card shadow-sm text-center">
+          <div class="card-body">
+            <i class="fab fa-android fa-3x mb-3"></i> <!-- Android Icon -->
+            <h5 class="card-title">Android</h5>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Projects Section -->
+<section id="projects" class="py-5"> 
+  <div class="container">
+    <h2 class="text-center mb-5">My Projects</h2>
+
+    <div class="row">
+
+      <!-- Project 1: DiG-Pass -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="digpass.jpg" class="card-img-top" alt="DiG-Pass Project">
+          <div class="card-body">
+            <h5 class="card-title">DiG-Pass: Enhance and Secure Solution using QR Code</h5>
+            <p class="card-text">
+              Developed a secure digital gatepass system using QR codes for identity verification. Integrated Firebase for real-time database interactions to store and retrieve user data securely.
+            </p>
+            <a href="https://github.com/your-profile/digpass-project" class="btn btn-primary" target="_blank">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2: Spotify Clone -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="spotify-clone.jpg" class="card-img-top" alt="Spotify Clone Project">
+          <div class="card-body">
+            <h5 class="card-title">Spotify Clone using HTML, CSS & JavaScript</h5>
+            <p class="card-text">
+              Created a responsive Spotify clone web app featuring music playback and playlist management. Optimized for performance using clean UI design and frontend technologies.
+            </p>
+            <a href="https://github.com/ParagShirsat/SpotifyClone" class="btn btn-primary" target="_blank">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3: IoT Street Lighting -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="street-lighting.jpg" class="card-img-top" alt="IoT Street Lighting Project">
+          <div class="card-body">
+            <h5 class="card-title">Automated Street Lighting System using IoT</h5>
+            <p class="card-text">
+              Designed and implemented an IoT-based automated street lighting system using sensors and microcontrollers. Enabled energy-efficient lighting control based on environmental conditions.
+            </p>
+            <a href="https://github.com/your-profile/iot-street-lighting" class="btn btn-primary" target="_blank">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4: Windows 11 Clone -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="windows11-clone.jpg" class="card-img-top" alt="Windows 11 Clone Project">
+          <div class="card-body">
+            <h5 class="card-title">Windows 11 Clone using HTML, CSS, Bootstrap & JavaScript</h5>
+            <p class="card-text">
+              Designed a functional and visually appealing Windows 11 desktop interface clone. Implemented key UI components like Start Menu, Taskbar, and draggable/resizable windows using web technologies for a real desktop-like experience.
+            </p>
+            <a href="https://github.com/your-profile/windows11-clone" class="btn btn-primary" target="_blank">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 5: Online Book Store -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="bookstore.jpg" class="card-img-top" alt="Online Book Store Project">
+          <div class="card-body">
+            <h5 class="card-title">Online Book Store Website using HTML, CSS, Bootstrap and PHP</h5>
+            <p class="card-text">
+              Built a fully functional online book store website with features like user registration, book catalog, search functionality, cart management, and order placement. Backend developed using PHP and data managed through MySQL database.
+            </p>
+            <a href="https://github.com/your-profile/online-bookstore" class="btn btn-primary" target="_blank">View Project</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Font Awesome CDN (Add this in <head> if not already included) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Certification Section -->
+<section id="certifications" class="py-5"> 
+  <div class="container">
+    <h2 class="text-center mb-5">Certifications</h2>
+
+    <div class="row text-center">
+      <!-- Certification 1 -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Java Programming</h5>
+            <p class="card-text">Completed Java Programming certification from Besant Technologies covering foundational and advanced concepts.</p>
+            <a href="Java_Programming.pdf" class="btn btn-outline-primary">View Certificate</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certification 2 -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Google AI Essentials</h5>
+            <p class="card-text">Completed Google AI Essentials course on Coursera, offered by Google, covering key AI concepts and applications.</p>
+            <a href="Google_AI.pdf" class="btn btn-outline-primary">View Certificate</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certification 3 -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Android Developer Course</h5>
+            <p class="card-text">Completed Android Fundamentals course through Infosys Springboard, focused on core Android app development.</p>
+            <a href="Android.pdf" class="btn btn-outline-primary">View Certificate</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certification 4 -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">PHP & MySQL</h5>
+            <p class="card-text">Completed "PHP & MySQL - Certification Course for Beginners" on Udemy, covering backend development fundamentals.</p>
+            <a href="PHP.pdf" class="btn btn-outline-primary">View Certificate</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Contact Section -->
+<section id="contact-section" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Contact</h2>
+    
+    <div class="row text-center justify-content-center gy-4">
+
+      <div class="col-md-3 d-flex align-items-center justify-content-center">
+        <i class="fas fa-map-marker-alt fa-lg me-2 text-primary"></i>
+        <span>Nashik, Maharashtra</span>
+      </div>
+
+      <div class="col-md-3 d-flex align-items-center justify-content-center">
+        <i class="fas fa-phone fa-lg me-2 text-primary"></i>
+        <span>+91 72191 29198</span>
+      </div>
+
+      <div class="col-md-3 d-flex align-items-center justify-content-center">
+        <i class="fas fa-envelope fa-lg me-2 text-primary"></i>
+        <span><a href="mailto:parag.shirsat@example.com" class="text-decoration-none text-dark">parag.shirsat@gmail.com</a></span>
+      </div>
+
+      <div class="col-md-3 d-flex align-items-center justify-content-center">
+        <i class="fas fa-file-download fa-lg me-2 text-primary"></i>
+        <a href="Parag_Resume.pdf" download class="btn btn-outline-primary btn-sm">Download Resume</a>
+      </div>
+
+    </div>
+  </div>
+</section
+
+
+
+
+<!-- Footer Section -->
+<footer class="ftco-footer ftco-section bg-dark text-white py-4">
+  <div class="container">
+
+    <!-- Social Media Links Row -->
+    <div class="row justify-content-center text-center">
+      <div class="col-md-6 mb-4">
+        <h5>Follow Me</h5>
+        <ul class="list-unstyled d-flex justify-content-center">
+          <li class="me-3">
+            <a href="https://www.linkedin.com/in/parag-shirsat-350029221/" class="text-white" target="_blank">
+              <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+          </li>
+          <li class="me-3">
+            <a href="https://github.com/ParagShirsat" class="text-white" target="_blank">
+              <i class="fab fa-github fa-lg"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Copyright Row -->
+    <div class="row mt-4">
+      <div class="col-12 text-center">
+        <p>&copy; <script>document.write(new Date().getFullYear());</script> All Rights Reserved | Designed by Parag Shirsat</p>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+<!-- Font Awesome CDN (if not already included) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
